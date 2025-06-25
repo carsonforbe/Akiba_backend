@@ -1,11 +1,11 @@
 # 💼 ChamaLink - Backend API
 
-**ChamaLink** is a backend REST API built with Django and Django REST Framework, designed to digitize and streamline the management of *chamas* (informal 
+**ChamaLink** is a backend REST API built with Django and Django REST Framework, designed to digitize and streamline the management of *chamas* (informal
 savings/investment groups) in Kenya.
 
+## AkibaPamoja Backend Setup Instructions
 
-# AkibaPamoja Backend Setup Instructions
-1. Clone the repo (do not fork) by running git clone https://github.com/Akiba_backend/
+1. Clone the repo (do not fork) by running `git clone <https://github.com/Akiba_backend/>`
 
 2. Create a .env file at the root folder (same location as manage.py file)
 
@@ -19,13 +19,13 @@ savings/investment groups) in Kenya.
 
 7. To run migrations run the command python3 manage.py migrate
 
-8. Ensure you access the website via http://127.0.0.1:8000 so that session auth works correctly
+8. Ensure you access the website via [http://127.0.0.1:8000](http://127.0.0.1:8000) so that session auth works correctly
 
-# Contributing to the codebase
+## Contributing to the codebase
+
 By default always create a new branch from dev i.e. git checkout -b feature/your_name
 Once your work is done, push your code to remote branch and create PR
 All merge conflicts are solved using git rebase to preserve linear history
-
 
 ## 🚀 Features
 
