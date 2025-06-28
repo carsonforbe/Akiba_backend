@@ -1,2 +1,13 @@
+# Virtual environments
 myenv
 .venv/
+venv/
+env/
+
+# Environment files
+*.env
+
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
